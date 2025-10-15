@@ -1,7 +1,7 @@
 ---
 services:
   traefik:
-    image: traefik:v3.5
+    image: traefik:latest
     environment:
       TRAEFIK_GLOBAL_CHECKNEWVERSION: false
       TRAEFIK_GLOBAL_SENDANONYMOUSUSAGE: false
